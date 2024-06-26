@@ -1,0 +1,53 @@
+.alarms {
+    .alarm-wrapper {
+      overflow: auto;
+      height: 185px;
+      
+    }
+    .time {
+      padding: 20px;
+      padding-bottom: 5px;
+      text-align: center;
+      color: #333333;
+      font-size: 18px;
+      font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica,
+        sans-serif;
+    }
+    .alarm {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 20px;
+      border-bottom: 1px solid #f0f0f0;
+      .image {
+        width: 55px;
+        img {
+          width: 45px;
+          height: 45px;
+          object-fit: cover;
+        }
+      }
+      .time {
+        padding: 10px;
+        font-size: 16px;
+        width: 190px;
+      }
+      .equipment {
+        padding: 10px;
+        font-size: 16px;
+        width: 90px;
+      }
+      .status {
+        padding: 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        &.pending {
+          color: #dc3545;;
+        }
+        &.fixed {
+          color: #198754;
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+<div class="alarms">
+    <div class="time">ALARMS</div>
+    <div class="alarm-wrapper">
+      <div class="alarm" *ngFor="let alarms of alarms">
+        <div class="image">
+          <fa-icon [icon]="faTools"></fa-icon>
+        </div>
+        <div class="time">{{ alarms.time }}</div>
+        <div class="equipment">{{ alarms.equipment }}</div>
+        <div class="type">{{ alarms.type }}</div>
+        <div
+          class="status"
+          [ngClass]="{
+            fixed: alarms.type === 'fixed',
+            pending: alarms.status === 'pending'
+          }"
+        >
+          {{ alarms.status }}
+        </div>
+      </div>
+    </div>
+  </div>

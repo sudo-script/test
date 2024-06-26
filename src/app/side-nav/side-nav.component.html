@@ -1,0 +1,45 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  </style>
+<div class="nav-items">
+  <a routerLink="/" style="text-decoration: none; color: white;">
+    <div class="nav-item">
+      <fa-icon [icon]="faTv"></fa-icon>
+      <span>Dashboard</span>
+    </div>
+  </a>
+    <a routerLink="/arrivals" style="text-decoration: none; color: white;">
+      <div class="nav-item">
+        <fa-icon [icon]="faPlaneArrival"></fa-icon>
+        <span>Arrivals</span>
+      </div>
+    </a>
+    <a routerLink="/departures" style="text-decoration: none; color: white;">
+      <div class="nav-item">
+        <fa-icon [icon]="faPlaneDeparture"></fa-icon>
+        <span>Departures</span>
+      </div>
+    </a>
+    <a routerLink="/card" style="text-decoration: none; color: white;">
+      <div class="nav-item">
+        <fa-icon [icon]="faUserCircle"></fa-icon>
+        <span>Profile</span>
+      </div>
+    </a>
+    <!-- <div class="nav-item">
+      <fa-icon [icon]="faMoneyBill"></fa-icon>
+      <span>Sales</span>
+    </div> -->
+    <!-- <div class="nav-item">
+      <fa-icon [icon]="faChartBar"></fa-icon>
+      <span>Statistics</span>
+    </div> -->
+    <!-- <div class="nav-item">
+      <fa-icon [icon]="faContactBook"></fa-icon>
+      <span>Contact</span>
+    </div> -->
+    <!-- <div class="nav-item">
+      <fa-icon [icon]="faHand"></fa-icon>
+      <span>Help</span>
+    </div> -->
+  </div>
