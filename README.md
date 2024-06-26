@@ -1,6 +1,10 @@
 # Test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+# Screenshots
+![Screenshot 2024-06-26 064956](https://github.com/sudo-script/test/assets/87933819/c08d52e4-f3ee-4632-af78-5dab9caeb7c6)
+![Screenshot 2024-06-26 065017](https://github.com/sudo-script/test/assets/87933819/10641340-3072-4de5-a5ae-629b6149a658)
+
 
 ## Development server
 
